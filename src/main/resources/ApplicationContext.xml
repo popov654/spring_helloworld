@@ -15,5 +15,6 @@
         <constructor-arg index="1" value="20000"/>
     </bean>
     <bean id="stringHolder" class="springhelloworld.model.StringHolder" scope="prototype"/>
+    <bean id="eventsListener" class="springhelloworld.Listeners"/>
     <context:annotation-config />
 </beans>
